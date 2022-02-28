@@ -1,37 +1,34 @@
-## Welcome to GitHub Pages
+## HuHinka's Blog Source
 
-You can use the [editor on GitHub](https://github.com/huhinka/huhinka.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+[博客]使用 [Hexo] 搭建并部署在 GitHub Pages 上。
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+主题选用 [hexo-theme-icalm]。
 
-### Markdown
+### 环境配置
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+npm install -g hexo-cli
+npm install
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+### 编写/发布博客
 
-### Jekyll Themes
+```
+// 创建新博客草稿
+hexo n 'new blog title'
+// 查看草稿
+npm run draft
+// 发布博客
+hexo publish 'new blog title'
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/huhinka/huhinka.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### 部署到 GitHub Pages
 
-### Support or Contact
+```
+npm run deploy
+```
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+[博客]: https://huhinka.github.io
+[Hexo]: https://hexo.io/zh-cn/
+[hexo-theme-icalm]: https://github.com/nameoverflow/hexo-theme-icalm
