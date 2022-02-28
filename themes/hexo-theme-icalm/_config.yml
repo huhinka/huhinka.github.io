@@ -1,0 +1,37 @@
+# Links on sidebar
+menu:
+  Home: /
+  Archive: /archives/
+  Tags: /tags/
+  # Categories: /categories/
+  # TODO 在补充 About me 之后开放这个菜单
+  # About: /about/
+
+# Pictures shown on the sidebar
+# Use the absolute URL after generating
+avatar: /assets/avatar.png
+sidebar_background: /assets/background.jpg
+
+rss: /atom.xml
+
+# Content
+excerpt_link: Read On »
+
+# Will be shown on the bottom.
+## To add new icon, just copy .svg to source/assets/ and add entries below.
+media:
+  github: https://github.com/huhinka
+  # facebook: https://www.facebook.com/profile.php?id=100004252391322
+
+source_han_font: true
+
+# Disqus settings
+disqus:
+  # 'disabled' | 'all' | 'post'
+  enable: disabled
+  # Shortname of your disqus website.
+  # See disqus admin
+  shortname:
+
+# Miscellaneous
+favicon: /assets/avatar.png

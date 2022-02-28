@@ -6,8 +6,7 @@
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo clean && hexo deploy",
-    "server": "hexo server",
-    "update-themes": "git pull && git submodule update --remote"
+    "server": "hexo server"
   },
   "hexo": {
     "version": "5.4.1"
