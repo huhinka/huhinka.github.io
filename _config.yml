@@ -104,3 +104,4 @@ theme: landscape
 deploy:
   type: git
   repo: https://github.com/huhinka/huhinka.github.io
+  branch: published
